@@ -12,6 +12,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   color: #555555;
+  padding-top: 70px;
 }
 
 h1,
@@ -658,6 +659,12 @@ a:hover {
   color: #000000;
 }
 
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .navbar-default.navbar-reduce .show > .nav-link,
 .navbar-default.navbar-reduce .active > .nav-link,
 .navbar-default.navbar-reduce .nav-link.show,
@@ -766,6 +773,52 @@ a:hover {
   transform: rotate(-135deg);
   opacity: 0.9;
 }
+
+/* General mobile navbar spacing adjustments */
+@media (max-width: 768px) {
+  .navbar {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+  }
+
+  .navbar-brand {
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
+
+  .navbar-nav {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .nav-link {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .navbar-toggler {
+    padding: 0.25rem 0.5rem;
+  }
+
+  .navbar-collapse {
+    margin-top: 0.5rem;
+  }
+    .navbar .navbar-toggler {
+    order: 2;
+    margin-left: auto;
+  }
+
+  .navbar .navbar-brand {
+    order: 1;
+    margin-right: auto;
+  }
+
+  .navbar-collapse {
+    width: 100%;
+  }
+}
+
+
 
 /*======================================
 //--//-->   BOX COLAPSE
