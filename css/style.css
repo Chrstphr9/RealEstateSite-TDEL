@@ -564,14 +564,13 @@ a:hover {
 }
 
 .navbar-brand {
-  display: inline-block;
-  padding-top: 5px;
-  padding-bottom: .3125rem;
-  margin-left: -6rem;
-  font-size: 25px;
-  line-height: inherit;
   white-space: nowrap;
-} 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1rem; /* Adjust size to fit */
+  max-width: 70%;  /* Adjust depending on design */
+}
+
 .navbar-toggler {
   padding: 25px 10px;
   padding-bottom: 50px;
