@@ -1022,7 +1022,7 @@ a:hover {
 /*------/ Intro Single /------*/
 
 .intro-single {
-  padding: 12rem 0 3rem;
+  padding: 12rem 0 0rem;
 }
 
 .intro-single .title-single-box {
@@ -2055,7 +2055,7 @@ footer .credits {
   }
 
   .intro-single {
-    padding-top: 9rem;
+    padding-top: 1rem;
   }
 
   .card-box-a,
