@@ -24,6 +24,52 @@
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
+  <style>
+    .card-box-img img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.card-header-c {
+  margin-bottom: 1rem;
+}
+
+.title-c {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.card-box-c {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 1.5rem;
+  height: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.card-box-c:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.link-c {
+  color: #ff7c00;
+  font-weight: 500;
+}
+
+.card-img-top {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  margin-top: 1.5rem;
+}
+
+  </style>
+
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
@@ -187,9 +233,9 @@
                       The <span class="color-b">Diplomats </span>
                       <br> Real Estates
                     </h1>
-                    <!-- <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">rent | $ 12.000</span></a>
-                    </p> -->
+                    <p class="intro-subtitle intro-price">
+                      Passion. Properties. Possibilities.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -211,9 +257,9 @@
                       The <span class="color-b">Diplomats </span>
                       <br> Real Estates
                     </h1>
-                    <!-- <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">rent | $ 12.000</span></a>
-                    </p> -->
+                    <p class="intro-subtitle intro-price">
+                      Passion. Properties. Possibilities.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -229,15 +275,15 @@
               <div class="row">
                 <div class="col-lg-8">
                   <div class="intro-body">
-                    <!-- <p class="intro-title-top">Doral, Florida
-                      <br> 78345</p> -->
+                    
                     <h1 class="intro-title mb-4">
                       The <span class="color-b">Diplomats </span>
                       <br> Real Estates
                     </h1>
-                    <!-- <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">rent | $ 12.000</span></a>
-                    </p> -->
+                    
+                    <p class="intro-subtitle intro-price">
+                      Passion. Properties. Possibilities.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -250,90 +296,49 @@
   <!--/ Carousel end /-->
 
   <!--/ Services Star /-->
-  <section class="section-services section-t8">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="title-wrap d-flex justify-content-between">
-            <div class="title-box">
-              <h2 class="title-a">About Us</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card-box-c foo">
-            <div class="card-header-c d-flex">
-              <div class="card-box-ico">
-                <span class="fa fa-eye"></span>
-              </div>
-              <div class="card-title-c align-self-center">
-                <h2 class="title-c">Our Vision</h2>
-              </div>
-            </div>
-            <div class="card-body-c">
-              <p class="content-c">
-                To be the most exceptional real estate company, exceeding expectations, and helping you to own a piece
-                of the world
-              </p>
-            </div>
-            <div class="card-footer-c">
-              <a href="about.html" class="link-c link-icon">Read more
-                <span class="ion-ios-arrow-forward"></span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card-box-c foo">
-            <div class="card-header-c d-flex">
-              <div class="card-box-ico">
-                <span class="fa fa-bullseye"></span>
-              </div>
-              <div class="card-title-c align-self-center">
-                <h2 class="title-c">Our Mission</h2>
-              </div>
-            </div>
-            <div class="card-body-c">
-              <p class="content-c">
-                Redefining real estate and turning your dream to a reality
-              </p>
-            </div>
-            <div class="card-footer-c">
-              <a href="about.html" class="link-c link-icon">Read more
-                <span class="ion-ios-arrow-forward"></span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card-box-c foo">
-            <div class="card-header-c d-flex">
-              <div class="card-box-ico">
-                <span class="fa fa-bullseye"></span>
-              </div>
-              <div class="card-title-c align-self-center">
-                <h2 class="title-c">Core Values</h2>
-              </div>
-            </div>
-            <div class="card-body-c">
-              <p class="content-c">
-                Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Praesent sapien massa,
-                convallis a pellentesque
-                nec, egestas non nisi.
-              </p>
-            </div>
-            <div class="card-footer-c">
-              <a href="about" class="link-c link-icon">Read more
-                <span class="ion-ios-arrow-forward"></span>
-              </a>
-            </div>
-          </div>
+  <div class="row">
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="card shadow-sm h-100 text-center">
+        <img src="https://img.freepik.com/free-photo/big-brother-surveillance-concept-composition_23-2150169372.jpg?uid=R59051076&ga=GA1.1.2044956418.1745670033&semt=ais_hybrid&w=740
+        " class="card-img-top img-fluid mx-auto d-block" alt="Vision Icon">
+        <div class="card-body">
+          <h5 class="card-title">Our Vision</h5>
+          <p class="card-text">
+            To be the most exceptional real estate company, exceeding expectations, and helping you own a piece of the world.
+          </p>
+          <a href="about.html" class="btn btn-outline-warning mt-3">Read More</a>
         </div>
       </div>
     </div>
-  </section>
+  
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="card shadow-sm h-100 text-center">
+        <img src="https://img.freepik.com/free-photo/business-strategy-success-target-goals_1421-33.jpg?uid=R59051076&ga=GA1.1.2044956418.1745670033&semt=ais_hybrid&w=740
+        " class="card-img-top img-fluid mx-auto d-block" alt="Mission Icon">
+        <div class="card-body">
+          <h5 class="card-title">Our Mission</h5>
+          <p class="card-text">
+            Redefining real estate and turning your dream into a reality.
+          </p>
+          <a href="about.html" class="btn btn-outline-warning mt-3">Read More</a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="card shadow-sm h-100 text-center">
+        <img src="https://img.freepik.com/free-photo/african-business-male-people-shaking-hands_1303-18516.jpg?uid=R59051076&ga=GA1.1.2044956418.1745670033&semt=ais_hybrid&w=740" class="card-img-top img-fluid mx-auto d-block" alt="Values Icon">
+        <div class="card-body">
+          <h5 class="card-title">Core Values</h5>
+          <p class="card-text">
+            Integrity, Excellence, and Passion guide our every action in the real estate space.
+          </p>
+          <a href="about.html" class="btn btn-outline-warning mt-3">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
   <!--/ Services End /-->
 
   <!--/ Property Star /-->
@@ -346,7 +351,7 @@
               <h2 class="title-a">Latest Properties</h2>
             </div>
             <div class="title-link">
-              <a href="property-grid.html">All Property
+              <a href="props">All Property
                 <span class="ion-ios-arrow-forward"></span>
               </a>
             </div>
@@ -363,8 +368,7 @@
               <div class="card-overlay-a-content">
                 <div class="card-header-a">
                   <h2 class="card-title-a">
-                    <!-- <a href="property-single.html">206 Mount
-                      <br /> Olive Road Two</a> -->
+                    <p>Detached & Semi-Detached Duplex/Triplex</p>
                   </h2>
                 </div>
                 <div class="card-body-a">
@@ -410,8 +414,7 @@
               <div class="card-overlay-a-content">
                 <div class="card-header-a">
                   <h2 class="card-title-a">
-                    <!-- <a href="property-single.html">157 West
-                      <br /> Central Park</a> -->
+                    <p>One to Three Bedroom Apartments</p>
                   </h2>
                 </div>
                 <!-- <div class="card-body-a">
@@ -456,10 +459,9 @@
             <div class="card-overlay">
               <div class="card-overlay-a-content">
                 <div class="card-header-a">
-                  <!-- <h2 class="card-title-a">
-                    <a href="property-single.html">245 Azabu
-                      <br /> Nishi Park let</a>
-                  </h2> -->
+                  <h2 class="card-title-a">
+                    <p>Self-Contained Apartment</p>
+                  </h2>
                 </div>
                 <!-- <div class="card-body-a">
                   <div class="price-box d-flex">
@@ -763,7 +765,7 @@
               <h2 class="title-a">More Properties</h2>
             </div>
             <div class="title-link">
-              <a href="blog-grid.html">
+              <a href="property-single.html">
                 <span class="ion-ios-arrow-forward"></span>
               </a>
             </div>
@@ -779,16 +781,16 @@
             <div class="card-overlay">
               <div class="card-header-b">
                 <div class="card-category-b">
-                  <a href="#" class="category-b">House</a>
+                  <!-- <a href="#" class="category-b">House</a> -->
                 </div>
                 <div class="card-title-b">
                   <h2 class="title-2">
-                    <a href="blog-single.html">House is comming
-                      <br> new</a>
+                    <a href="props.html">Hectares of Land <br> @
+                      Karshi, Nasarawa</a>
                   </h2>
                 </div>
                 <div class="card-date">
-                  <span class="date-b">18 Sep. 2017</span>
+                  <!-- <span class="date-b">18 Sep. 2017</span> -->
                 </div>
               </div>
             </div>
@@ -802,16 +804,16 @@
             <div class="card-overlay">
               <div class="card-header-b">
                 <div class="card-category-b">
-                  <a href="#" class="category-b">Travel</a>
+                  <!-- <a href="#" class="category-b">Travel</a> -->
                 </div>
                 <div class="card-title-b">
                   <h2 class="title-2">
-                    <a href="blog-single.html">Travel is comming
-                      <br> new</a>
+                    <a href="props.html">Hectares of Land <br> @
+                      Abuja/Keffi Road, Gora, Saka  </a>
                   </h2>
                 </div>
                 <div class="card-date">
-                  <span class="date-b">18 Sep. 2017</span>
+                  <!-- <span class="date-b">18 Sep. 2017</span> -->
                 </div>
               </div>
             </div>
@@ -825,16 +827,16 @@
             <div class="card-overlay">
               <div class="card-header-b">
                 <div class="card-category-b">
-                  <a href="#" class="category-b">Park</a>
+                  <!-- <a href="#" class="category-b">Park</a> -->
                 </div>
                 <div class="card-title-b">
                   <h2 class="title-2">
-                    <a href="blog-single.html">Park is comming
-                      <br> new</a>
+                    <a href="props.html">Hectares of Land <br> @
+                      Abuja/Keffi Road, Gora</a>
                   </h2>
                 </div>
                 <div class="card-date">
-                  <span class="date-b">18 Sep. 2017</span>
+                  <!-- <span class="date-b">18 Sep. 2017</span> -->
                 </div>
               </div>
             </div>
@@ -848,12 +850,12 @@
             <div class="card-overlay">
               <div class="card-header-b">
                 <div class="card-category-b">
-                  <a href="#" class="category-b">Travel</a>
+                  <!-- <a href="#" class="category-b">Travel</a> -->
                 </div>
                 <div class="card-title-b">
                   <h2 class="title-2">
-                    <a href="#">Travel is comming
-                      <br> new</a>
+                    <a href="#">Hectares of Land  <br> @
+                      Abuja/Keffi Road, Uke </a>
                   </h2>
                 </div>
                 <div class="card-date">
@@ -869,7 +871,7 @@
   <!--/ News End /-->
 
   <!--/ Testimonials Star /-->
-  <section class="section-testimonials section-t8 nav-arrow-a">
+  <!-- <section class="section-testimonials section-t8 nav-arrow-a">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -937,7 +939,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!--/ Testimonials End /-->
 
   <!--/ footer Star /-->
